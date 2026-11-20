@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Page Metadata (Replace placeholders before launch) -->
+  <title>[PAGE_TITLE_INDEX] | Fluency Standard</title>
+  <meta name="description" content="[META_DESCRIPTION_INDEX]">
+
+  <!-- Open Graph Metadata -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="[OG_TITLE_INDEX]">
+  <meta property="og:description" content="[OG_DESCRIPTION_INDEX]">
+  <meta property="og:url" content="[SITE_URL]/">
+  <meta property="og:image" content="[OG_IMAGE_URL]">
+
+  <!-- Favicon Placeholder -->
+  <link rel="icon" href="[FAVICON_URL]" type="image/svg+xml">
+
+  <!-- Fonts: Preconnect and load above-the-fold Latin faces with font-display: swap.
+       Bangla fallback fonts use unicode-range subsets so they only download when
+       Bangla glyphs appear in the document. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+  >
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600&family=Noto+Serif+Bengali:wght@400;500&display=swap"
+  >
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body class="page-landing">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- Header: Wordmark only, no navigation menu -->
+  <header class="site-header">
+    <div class="container container--wide header-inner header-inner--centered">
+      <a class="wordmark" href="index.html">Fluency Standard</a>
+    </div>
+  </header>
+
+  <main id="main-content" class="site-main">
+    <section class="hero section-enter" aria-labelledby="hero-heading">
+      <div class="container container--reading hero-intro">
+        <p class="mono-label">[LANDING_MONO_LABEL]</p>
+        <h1 id="hero-heading" class="display-heading">[HEADLINE]</h1>
+        <p class="supporting-line">[SUPPORTING LINE]</p>
+      </div>
+
+      <!-- Focal Element: Responsive 16:9 Video Facade inside a Glass Card -->
+      <div class="container container--video">
+        <div class="card-host">
+          <div class="glass-card video-card">
+            <!-- BACKEND / MEDIA: Set data-video-type to "mp4" or "embed".
+                 data-poster-hd is only loaded when Save-Data is not enabled. -->
+            <div
+              class="video-facade"
+              data-video-facade
+              data-video-type="mp4"
+              data-video-src="[VIDEO_SRC_URL]"
+              data-captions-src="[CAPTIONS_VTT_URL]"
+              data-captions-lang="en"
+              data-captions-label="English"
+              data-video-title="Fluency Standard overview"
+            >
+              <img
+                class="video-poster"
+                src="[VIDEO_POSTER_URL]"
+                data-poster-hd="[VIDEO_POSTER_HD_URL]"
+                alt="Fluency Standard overview video preview"
+                width="960"
+                height="540"
+                decoding="async"
+                fetchpriority="high"
+              >
+              <button
+                type="button"
+                class="video-play-btn"
+                aria-label="Play overview video"
+                data-video-play
+              >
+                <span class="video-play-circle" aria-hidden="true">
+                  <svg class="icon-play" viewBox="0 0 24 24" width="24" height="24" focusable="false">
+                    <polygon points="8,5 20,12 8,19" fill="currentColor"></polygon>
+                  </svg>
+                </span>
+                <span class="video-play-caption mono-text">Play overview</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Primary Action -->
+      <div class="container container--reading hero-action">
+        <a class="btn btn--primary btn--hero" href="programs.html">[BUTTON TEXT]</a>
+        <p class="reassurance-line">[REASSURANCE LINE]</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Quiet Footer: Copyright only -->
+  <footer class="site-footer">
+    <div class="container container--wide">
+      <p class="copyright">&copy; 2026 Fluency Standard. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Page Metadata (Replace placeholders before launch) -->
+  <title>[PAGE_TITLE_PROGRAMS] | Fluency Standard</title>
+  <meta name="description" content="[META_DESCRIPTION_PROGRAMS]">
+
+  <!-- Open Graph Metadata -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="[OG_TITLE_PROGRAMS]">
+  <meta property="og:description" content="[OG_DESCRIPTION_PROGRAMS]">
+  <meta property="og:url" content="[SITE_URL]/programs.html">
+  <meta property="og:image" content="[OG_IMAGE_URL]">
+
+  <!-- Favicon Placeholder -->
+  <link rel="icon" href="[FAVICON_URL]" type="image/svg+xml">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+  >
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600&family=Noto+Serif+Bengali:wght@400;500&display=swap"
+  >
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body class="page-programs">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- Header with Back Link -->
+  <header class="site-header">
+    <div class="container container--wide header-inner">
+      <a class="back-link" href="index.html">
+        <svg class="icon-inline" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false">
+          <path d="M10.5 3.5L6 8l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        <span>Back</span>
+      </a>
+      <a class="wordmark" href="index.html">Fluency Standard</a>
+      <span class="header-spacer" aria-hidden="true"></span>
+    </div>
+  </header>
+
+  <main id="main-content" class="site-main">
+    <section class="programs-section section-enter" aria-labelledby="programs-heading">
+      <div class="container container--reading section-intro">
+        <p class="mono-label">[PROGRAMS_MONO_LABEL]</p>
+        <h1 id="programs-heading" class="display-heading">[PROGRAMS_HEADLINE]</h1>
+        <p class="supporting-line">[PROGRAMS_SUPPORTING_LINE]</p>
+      </div>
+
+      <!-- Equal-Weight Program Comparison (Only the buttons are links) -->
+      <div class="container container--programs">
+        <div class="programs-grid">
+          <!-- Standard Plan -->
+          <div class="card-host">
+            <article class="glass-card program-card" aria-labelledby="plan-standard-title">
+              <div class="program-card-top">
+                <p class="mono-label mono-label--subtle">Option 01</p>
+                <h2 id="plan-standard-title" class="program-title">Standard</h2>
+                <p class="program-fit">[STANDARD_FIT_SENTENCE]</p>
+              </div>
+
+              <ul class="feature-list">
+                <li>[STANDARD_ITEM_1]</li>
+                <li>[STANDARD_ITEM_2]</li>
+                <li>[STANDARD_ITEM_3]</li>
+                <li>[STANDARD_ITEM_4]</li>
+              </ul>
+
+              <div class="program-card-footer">
+                <div class="program-price-row">
+                  <span class="program-price-label">Program fee</span>
+                  <p class="program-price mono-text">[STANDARD_PRICE]</p>
+                </div>
+                <a class="btn btn--secondary btn--full" href="enroll.html?program=standard">
+                  Continue with Standard
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Upgraded Plan (Subtle border + thin navy accent line only) -->
+          <div class="card-host">
+            <article class="glass-card program-card program-card--upgraded" aria-labelledby="plan-upgraded-title">
+              <div class="program-card-top">
+                <p class="mono-label mono-label--navy">Option 02</p>
+                <h2 id="plan-upgraded-title" class="program-title">Upgraded</h2>
+                <p class="program-fit">[UPGRADED_FIT_SENTENCE]</p>
+              </div>
+
+              <ul class="feature-list">
+                <li>[UPGRADED_ITEM_1]</li>
+                <li>[UPGRADED_ITEM_2]</li>
+                <li>[UPGRADED_ITEM_3]</li>
+                <li>[UPGRADED_ITEM_4]</li>
+              </ul>
+
+              <div class="program-card-footer">
+                <div class="program-price-row">
+                  <span class="program-price-label">Program fee</span>
+                  <p class="program-price mono-text">[UPGRADED_PRICE]</p>
+                </div>
+                <a class="btn btn--primary btn--full" href="enroll.html?program=upgraded">
+                  Continue with Upgraded
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <p class="quiet-help">
+          Not sure which fits?
+          <a
+            class="text-link"
+            href="[WHATSAPP_LINK]"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Message us on WhatsApp</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Quiet Footer -->
+  <footer class="site-footer">
+    <div class="container container--wide">
+      <p class="copyright">&copy; 2026 Fluency Standard. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
